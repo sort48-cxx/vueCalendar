@@ -1,6 +1,6 @@
 # vuecalendar
 
-> Vue canlendar plug-in
+> Vue calendar plug-in
 
 ### 项目介绍
 
