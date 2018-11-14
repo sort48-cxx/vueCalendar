@@ -768,7 +768,6 @@
 							begin = this.rangeBegin
 							end = this.rangeEnd
 						}
-						// console.log("选中日期",begin,end)
 						this.$emit('select', begin, end)
 					}
 					this.render(this.year, this.month)

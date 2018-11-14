@@ -26,7 +26,7 @@ export default {
                 begin:[1999,1,1], //可选开始日期
                 //end:[,12,16], //可选结束日期
                 select(begin,end){
-									console.log(begin.toString(),end.toString());
+									console.log(`开始时间:${begin[0]}-${begin[1]+1}-${begin[2]}\n结束时间:${end[0]}-${end[1]+1}-${end[2]}`);
                 }
             },
         }
